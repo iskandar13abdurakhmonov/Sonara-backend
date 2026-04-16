@@ -1,0 +1,22 @@
+{
+  "name": "sonara-backend",
+  "version": "1.0.0",
+  "description": "Express backend for Sonara Spotify authentication",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "node --watch src/index.js",
+    "start": "node src/index.js"
+  },
+  "keywords": [
+    "express",
+    "spotify",
+    "oauth"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1"
+  }
+}
