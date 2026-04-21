@@ -22,6 +22,10 @@ const defaultScopes = [
   "user-read-recently-played",
   "playlist-read-private",
   "playlist-read-collaborative",
+  "user-library-read",
+  "user-library-modify",
+  "user-follow-read",
+  "user-follow-modify",
 ]
 const scope = process.env.SPOTIFY_SCOPES || defaultScopes.join(" ")
 const stateCookieName = "spotify_auth_state"
